@@ -1,0 +1,158 @@
+
+
+
+body {
+    background-image: 
+      url(./background.jpg),
+      url(./continue.jpg);
+    background-position:
+      top left, 
+      bottom left; 
+    background-repeat:
+      repeat-x
+  }
+
+.estate {
+    display: block;
+position: absolute;
+bottom:35px ;
+left:1050px ;
+padding-right: 12px;
+border: none;
+}
+
+.priority {
+position: relative;
+bottom: 0px;
+
+}
+
+.green {
+    position: relative;
+    right: 7px;
+    bottom: 2px ;
+}
+
+.orang {
+    position: relative;
+    right: 7px;
+    bottom: 2px ;
+}
+
+.reder {
+    position: relative;
+    right: 7px;
+    bottom: 2px ;
+}
+
+.x-complete {
+    position: relative;
+    right: 11px;
+    bottom: 10px;
+    
+}
+
+.no-complete {
+    position: relative;
+    right: 11px;
+    bottom: 10px;
+    }
+
+    .no-incomplete {
+        position: relative;
+        right: 11px;
+        bottom: 10px;
+        }
+
+        .yes-incomplete {
+            position: relative;
+            right: 11px;
+            bottom: 10px;
+            }
+
+            .boton1{
+                padding-right: 0px;
+                           }
+                
+                           .boton2{
+                            padding-right: 0px;
+                                       }
+                
+                                       .boton3{
+                                        padding-right: 0px;
+                                                   }
+                
+                                                   .boton4{
+               padding-right: 0px;
+                                                               }
+                                                               .completed {
+                                                                position: absolute;   
+                                                                left: 520px;
+                                                                top: 2px;
+                                                               }
+
+                    .indexoverlap{
+                        
+                        position: absolute;
+                        top: 90px;
+                        left: 25px;
+                        opacity: 0.9;
+                        border: 2px solid;
+                        border-color: red;
+                    }
+
+                    .overlap{
+                        
+                        position: absolute;
+                        top: 90px;
+                        left: 525px;
+                        opacity: 0.9;
+                        border: 2px solid;
+                        border-color: limegreen;
+                    }
+
+        .notcompleted{
+            position: absolute;
+            top: 2px;
+            left: 20px;
+        }
+
+        .notcompleted li{
+            width: 180%;
+            padding-bottom: 5px;
+            margin: 5px;
+
+        }
+
+        .tasks{
+            display: none;
+        }
+
+        .title{
+            color: white;
+        }
+
+        .watermark{
+            position: fixed;
+            color: grey;
+            top: 554px;
+        }
+
+        .outliner{
+            position: fixed;
+            color: aqua;
+            top: 552px;
+            right: 778px;            
+        }
+       
+        .titlehead{
+            display: none;
+        }
+
+        .completed li{
+            background: aquamarine;
+            padding-bottom: 5px;
+            margin: 5px;
+            width: 155%;
+        }
+

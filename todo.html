@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <img src="index.jpeg" class="indexoverlap" width="485px" height="475">
+    <img src="index.jpeg" class="overlap" width="485px" height="475">
+    <div class="addtask">
+        <input type="text" placeholder="Input Today's Tasks" size=100px class="data" id="texter" maxlength="43">
+        <button onclick="addLi()">Add</button>
+        <span class="priority">
+        <button style="width: 3.5px; height: 30px;" class="less" onclick="makelime()" id="greenboi"><span class="green" id="greener">🟢</span></button>
+        <button style="width: 3.5px; height: 30px;" class="median" onclick="makeyellow()" id="yellowboi"><span class="orang" id="yellow">🟠</span></button>
+        <button style="width: 3.5px; height: 30px;" class="important" onclick="makered()" id="redboi"><span class="reder" id="red">🔴</span></button>
+        </span> 
+    </div>
+    <div class="todo"> 
+        <ul class="notcompleted" id="listnode">
+            <h1 class="title">Planned Tasks</h1>
+        <li class="tasks">Write Down Tasks
+            <span class="option3"><button style="width: 3.5px; height: 15px;" class="boton1" id="delete" onclick="DelTask()"><span class="no-incomplete">🗑</span></button></span>
+            <span class="option4"><button style="width: 3.5px; height: 15px;" class="boton2" id="checkmark" onclick="makecomplete()"><span class="yes-incomplete">✔️</span></button></span>
+        </li>    
+    </ul>
+        </div>
+        <div class="done">
+        <ul class="completed" id="acceptednodes">
+            <h1 class="title">Completed Tasks</h1>
+            <li class="titlehead">Tasks
+                <span class="option1"><button style="width: 3.5px; height: 15px;" class="boton3" id="crossover"><span class="x-complete" data-crossover>✖</span></button></span>             
+   <span class="option2"><button style="width: 3.5px; height: 15px;" class="boton4" id="yes-delete"><span class="no-complete">🗑</span></button></span>
+            </li>
+        </ul> 
+    </div>
+    <span class="estate">
+        <textarea rows="30" cols="132" placeholder="Free Real Estate" spellcheck="false" style="font-family: 'Courier New', Courier, monospace;"></textarea>
+    </span>
+    <div>
+        <h2 class="outliner">©Heroborgreal Productions - ™Anthony Pereira</h1>
+        <h2 class="watermark">©Heroborgreal Productions - ™Anthony Pereira</h2>
+    </div>
+</body>
+</html>
